@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+:root{
+    --button-color:#05386B;
+    --background:#5CDB95;
+    --text:#EDF5E1;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+}
+#logo{
+    height: 5rem;
+}
+.palindrome-check{
+    min-height: fit-content;
+    width:40%;
+    border-radius: 0.5rem;
+    padding:1rem;
+    text-align: center;
+}
+#heading{
+    font-family: 'Bungee Spice', cursive;
+}
+label{
+    display: block;
+    text-align: center;
+    margin: 1rem;
+    cursor: pointer;
+}
+input{
+    width:10rem;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    border:2px solid gray;
+    display: block;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+#check{
+    display: inline-block;
+    margin: 1rem;
+    background-color: var(--button-color);
+    font-size: 1.5rem;
+    color: var(--text);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#answer{
+    min-height:1rem;
+    max-height: fit-content;
+    text-align: center;
+}
+#birthdayAnswer{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}
