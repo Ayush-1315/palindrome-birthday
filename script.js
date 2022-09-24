@@ -116,7 +116,7 @@ function getpreviousDate(date){
 }
 function stringToObj(){
     if(birthday.value==="")
-    alert("Fuck Offf");
+    alert("Please enter your birthday.");
     else{
     date.day=parseInt(birthday.value.slice(8,10));
     date.month=parseInt(birthday.value.slice(5,7));
